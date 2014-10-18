@@ -1,0 +1,39 @@
+* Create the template project.
+  * Create a Maven project under the "source" directory.
+  * Add your dependencies, files, artifacts.
+  * Build, test your project.
+
+* Generate the archetype.
+  * Copy the relevant files of the project into the "clean" directory.
+    (Copying is necessary as most likely your project dir will contain
+    IDE-specific configs as well.)
+  * Invoke "mvn archetype:create-from-project"
+  * Copy the generated files into the archetype's final directory.
+
+* Modify the generated files.
+  * Set the archetype group ID to "hu.sjuhasz.maven.archetypes"
+  * Set the archetype artifact ID. Examples are:
+     - java-ee-7-servlet
+     - java-se-7-helloworld
+  * Change the build's final name to ${artifactId} for WAR projects.
+
+* If you are adding properties
+  * Open the src/main/resources/META-INF/maven/archetype-metadata.xml
+  * Add you properties
+    NOTE: do not use dots in your porperty names, use camel case.
+
+    <archetype-descriptor name="appengine-hello">
+      ...
+      <requiredProperties>
+        <requiredProperty key="projectId">
+          <defaultValue>bionic-cosmos-710</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="appengineSdkVersion">
+          <defaultValue>1.9.11</defaultValue>
+        </requiredProperty>
+      </requiredProperties>
+    </archetype-descriptor>
+
+  * Replace your current values wiht ${propertyName}.
+
+* Build your archetype with mvn:install

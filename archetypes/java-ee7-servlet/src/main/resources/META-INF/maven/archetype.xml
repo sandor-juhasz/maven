@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><archetype>
+  <id>ServletDemo</id>
+  <sources>
+    <source>src\main\java\hu\sjuhasz\demo\web\servlet\TestServlet.java</source>
+  </sources>
+  <resources>
+    <resource>src\main\webapp\WEB-INF\web.xml</resource>
+  </resources>
+</archetype>

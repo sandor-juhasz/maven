@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>war</packaging>
+
+    <groupId>${groupId}</groupId>
+    <artifactId>${artifactId}</artifactId>
+    <version>${version}</version>
+
+    <parent>
+       <groupId>hu.sjuhasz.poms</groupId>
+       <artifactId>appengine</artifactId>
+       <version>${appengineSdkVersion}-SNAPSHOT</version>
+    </parent>
+
+    <properties>
+        <appengine.project.id>${projectId}</appengine.project.id>
+    </properties>
+
+</project>
