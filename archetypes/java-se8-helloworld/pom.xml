@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>hu.sjuhasz.maven.archetypes</groupId>
   <artifactId>java-se8-helloworld</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <packaging>maven-archetype</packaging>
   <name>Simple Java SE 8 application with JUnit 4.12</name>
   <build>

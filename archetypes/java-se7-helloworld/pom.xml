@@ -4,9 +4,9 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>hu.sjuhasz.maven.archetypes</groupId>
   <artifactId>java-se7-helloworld</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <packaging>maven-archetype</packaging>
-  <name>Simple Java SE 7 application with JUnit 4.11</name>
+  <name>Simple Java SE 7 application with JUnit</name>
   <build>
     <extensions>
       <extension>

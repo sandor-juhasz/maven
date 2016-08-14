@@ -1,0 +1,3 @@
+archetypes/java-se-7-helloworld/target/*.*
+archetypes/java-se-8-helloworld/target/*.*
+*.jar
