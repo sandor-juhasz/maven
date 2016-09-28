@@ -10,6 +10,7 @@
   <modules>
     <module>java-ee7-servlet</module>
     <module>java-ee7-jaxrs</module>
+    <module>java-ee7-jsf</module>    
     <module>java-ee-appengine-simple</module>
     <module>java-se7-helloworld</module>
     <module>java-se8-helloworld</module>
