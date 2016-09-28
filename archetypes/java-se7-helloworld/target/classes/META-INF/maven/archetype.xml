@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><archetype>
-  <id>JavaApplicaiton</id>
-  <sources>
-    <source>src\main\java\hu\sjuhasz\demo\app\HelloWorld.java</source>
-  </sources>
-  <testSources>
-    <source>src\test\java\hu\sjuhasz\demo\app\HelloWorldTest.java</source>
-  </testSources>
-</archetype>
