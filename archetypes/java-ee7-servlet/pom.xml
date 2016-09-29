@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>hu.sjuhasz.maven.archetypes</groupId>
   <artifactId>java-ee7-servlet</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <packaging>maven-archetype</packaging>
   <name>ServletDemo-archetype</name>
   <build>
